@@ -2,13 +2,20 @@
 
 The Motorsport Manager (MM) game has a bug which prevents some drivers being selected for practice sessions. The bug can be fixed by modifying up to three incorrect values in the MM save file. [Credit to the original poster of this fix](https://steamcommunity.com/app/415200/discussions/2/1482109512320472245/?ctp=2#c3561682880008852087 "https://steamcommunity.com"). This program allows anoyone to open the save file, fix the incorrect values, then save a fixed copy of the file with minimal effort.
 
+## If you have any problems
+
+- Please raise an issue
+- You can restore the save folder `%appdata%\..\LocalLow\Playsport Games\Motorsport Manager\Cloud\Saves` to its original state by deleteing any of the new files
+- Old save files will not have been modified unless you chose to overwrite them
+
 ## Instructions
 
-1. Download the latest release **[from here](https://github.com/sieve-mind/mm-practice-driver-fixer/releases/latest "from here")**, unzip it, and run MMPracticeDriverFixer.exe
+1. Back up the save folder `%appdata%\..\LocalLow\Playsport Games\Motorsport Manager\Cloud\Saves` just in case 
+2. Download the latest release **[from here](https://github.com/sieve-mind/mm-practice-driver-fixer/releases/latest "from here")**, unzip it, and run MMPracticeDriverFixer.exe
    - Or download the source code and build the executable
-2. If Motorsport Manager is running save your game and exit
-3. Click the **Open Motorsport Manager Save File...** button and pick a save file
-4. Select which driver should be in car 1 (purple), which driver should be in car 2 (orange),  and which driver should be in reserve. Make sure none of the drivers overlap
+3. If Motorsport Manager is running save your game and exit
+4. Click the **Open Motorsport Manager Save File...** button and pick a save file
+5. Select which driver should be in car 1 (purple), which driver should be in car 2 (orange),  and which driver should be in reserve. Make sure none of the drivers overlap
 
 #### Example before
 
@@ -20,9 +27,9 @@ The Motorsport Manager (MM) game has a bug which prevents some drivers being sel
 
 If none over the drivers overlap when you open the save file then you have a different glitch which this program will be unable to fix.
 
-5. Click the **Save Changes As...** button and save a new file
+6. Click the **Save Changes As...** button and save a new file
    - You can overwrite an existing save, but for the sake of safety I would not recommend it
-6. Open Motorsport Manager and load the new save file, the glitch should now be fixed
+7. Open Motorsport Manager and load the new save file, the glitch should now be fixed
 
 ## Disclaimer
 
