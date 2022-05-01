@@ -1,0 +1,91 @@
+---
+Language: Cpp
+Standard: c++20
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+ColumnLimit: 100
+
+AccessModifierOffset: -4
+
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlinesLeft: false
+AlignOperands: true
+AlignTrailingComments: true
+
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: true
+
+BinPackArguments: true
+BinPackParameters: true
+
+BraceWrapping:
+        AfterCaseLabel: true
+        AfterClass: true
+        AfterControlStatement: true
+        AfterEnum: true
+        AfterExternBlock: true
+        AfterFunction: true
+        AfterNamespace: true
+        AfterStruct: true
+        AfterUnion: true
+        BeforeCatch: true
+        BeforeElse: true
+        IndentBraces: false
+
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Custom
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializersBeforeComma: true
+BreakStringLiterals: false
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: false
+
+FixNamespaceComments: false
+
+IndentCaseLabels: true
+IndentWrappedFunctionNames: false
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+NamespaceIndentation: All
+
+PenaltyBreakBeforeFirstCallParameter: 1000
+# PenaltyBreakComment: 0
+# PenaltyBreakFirstLessLess: 0
+# PenaltyBreakString: 0
+PenaltyExcessCharacter: 1
+# PenaltyReturnTypeOnItsOwnLine:
+
+PointerAlignment: Right
+
+ReflowComments: true
+SortIncludes: false
+
+SpaceAfterCStyleCast: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 4
+SpacesInAngles: true
+SpacesInCStyleCastParentheses: true
+SpacesInContainerLiterals: true
+SpacesInParentheses: true
+SpacesInSquareBrackets: true
+
+...
